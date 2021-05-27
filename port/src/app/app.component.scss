@@ -1,7 +1,7 @@
 .headerContainer{
     height: 5rem;
-    background: var(--purple);
-    border-bottom: 3px solid var(--black-omni);
+    background: var(--black-omni);
+    border-bottom: 3px solid var(--purple);
     color: var(--white-ice);
 
     font-size: 1.5rem;
@@ -10,8 +10,6 @@
     justify-content: center;
 
     span{
-        position: relative;
-        right: 22rem;
 
         img{
             width: 3rem;
@@ -19,10 +17,6 @@
         }   
     }
 
-    #button-email{
-        position: relative;
-        left: 52rem;
-    }
 
     button{
         width: 10rem;
@@ -48,14 +42,14 @@
 .headerContent{
     font-weight: bold;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5rem;
     align-items: center;
     margin-right: 10rem;
     justify-content: space-between;
 
     a:hover{
-        color: var(--black-omni);
+        color: var(--yellow-omni);
     }
 
 }
@@ -79,7 +73,7 @@
 }
 
 .sectionContainer{
-    max-width: 600px;
+    max-width: 900px;
     font-family: rajdhani;
 
     h1{
