@@ -1,0 +1,42 @@
+.contentContainer{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        width: 35rem;
+        height: 35rem;
+        position: relative;
+        left: 10rem;
+    }
+}
+
+.sectionContainer{
+    max-width: 900px;
+    font-family: rajdhani;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+
+    h2{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    span{
+        color: var(--purple);
+        
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+}
